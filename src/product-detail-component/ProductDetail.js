@@ -1,8 +1,7 @@
-import { useEffect } from "react/cjs/react.development";
 import styles from "./ProductDetail.module.css";
 import { useAxios } from "../custom-hooks/Axios";
 import { useNavigate, useParams } from "react-router";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { discountCalc } from "../misc/util";
 import { useCartAndWishlist } from "../context/CartAndWishlistProvider";
 import { useProgressState } from "../context/ProgressStateProvider";
